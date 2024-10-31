@@ -18,9 +18,10 @@ logs/
 *.mp4
 libero.egg-info/
 lotus.egg-info/
-.vscode/
+.vscode/*
+!.vscode/launch.json
 
 ## random
 log.txt
 
-!.vscode/launch.json
+
