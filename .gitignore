@@ -22,3 +22,5 @@ lotus.egg-info/
 
 ## random
 log.txt
+
+!.vscode/launch.json
