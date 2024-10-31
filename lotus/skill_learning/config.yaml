@@ -61,7 +61,7 @@ ibot:
 train:
   batch_size_per_gpu: 64
   dataset_path: ImageNet:split=TRAIN
-  output_dir: /home/yi/Projects/Lotus/lotus/skill_learning
+  output_dir: /home/yi/Program/Lotus/lotus/skill_learning
   saveckp_freq: 20
   seed: 0
   num_workers: 10
