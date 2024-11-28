@@ -10,4 +10,4 @@ segment_scale: 2
 scale: 0.05
 
 
-visualization: false
+visualization: true
