@@ -12,7 +12,7 @@
             "console": "integratedTerminal",
             "args": [
                 "--exp-name", 
-                "dinov2_libero_object_image_only",
+                "dinov2_libero_spatial_image_only",
                 "--modality-str",
                 "dinov2_agentview_eye_in_hand",
                 "--feature-dim",
@@ -94,12 +94,12 @@
             "console": "integratedTerminal",
             "args": [
                 "seed=42",
-                "benchmark_name=libero_object",
+                "benchmark_name=libero_spatial",
                 "policy=bc_transformer_policy",
                 "lifelong=multitask_skill",
-                "skill_learning.exp_name=dinov2_libero_object_image_only",
-                "exp=transformer_libero_object",
-                "goal_modality=BUDS"
+                "skill_learning.exp_name=dinov2_libero_spatial_image_only",
+                "exp=transformer_libero_spatial",
+                "goal_modality=DINOv2"
             ],
             "justMyCode": true,
             "env": {
