@@ -1,0 +1,3 @@
+[submodule "lotus"]
+	path = lotus
+	url = https://github.com/UT-Austin-RPL/Lotus.git
